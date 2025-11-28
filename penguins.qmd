@@ -14,5 +14,7 @@ library(palmerpenguins)
 data(penguins)
 
 glimpse(penguins)
+
+GGgally::ggpairs(penguins)
 ```
 
