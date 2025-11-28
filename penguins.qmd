@@ -1,0 +1,18 @@
+---
+title: "penguins"
+format: html
+editor: visual
+---
+
+## penguins
+
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+
+data(penguins)
+
+glimpse(penguins)
+```
+
